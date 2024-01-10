@@ -1,0 +1,16 @@
+:root {
+    /* Variable definitions here */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    
+}
