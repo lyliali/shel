@@ -7,10 +7,18 @@
 }
 
 html {
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 body {
-    
+    font-size: 17px;
 }
