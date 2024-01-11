@@ -1,0 +1,69 @@
+/* STYLE FOR IDX PAGE */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.idx {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    max-width: 1000px;
+    max-height: 700px;
+}
+
+.idx-header {
+    /* relative to idx grid */
+    grid-row: 1;
+    grid-column: 2 / 3;
+    /* position text on bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#idx-img {
+    max-height: 200px;
+    max-width: 500px;
+    margin-bottom: 7rem;
+}
+
+#idx-h1 {
+    margin-bottom: 7rem;
+}
+
+.idx-entries {
+    max-width: 700px;
+    /* relative to idx grid */
+    grid-row: 2;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.idx-column-1 {
+    /* relative to idx grid */
+    grid-column: 1 / 2;
+    grid-row: 1;
+    margin-left: 2rem;
+}
+
+.title, .epigraph {
+    margin-bottom: 2rem;
+}
+
+.projects {
+    /* relative to idx grid */
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.socials {
+    /* relative to idx grid */
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 6rem;
+}
