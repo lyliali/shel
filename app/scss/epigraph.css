@@ -1,4 +1,4 @@
-/* STYLE FOR IDX PAGE */
+/* STYLE FOR EPIGRAPH PAGES */
 body {
     height: 100vh;
     display: flex;
@@ -7,13 +7,14 @@ body {
     justify-content: center;
     overflow: hidden;
     background-image: url("../../assets/invitation.png");
-    background-position: right bottom;
+    background-position: 65% 75%;
     background-repeat: no-repeat;
     background-size: 200px;
 }
 
 .container {
-    max-width:fit-content;
+    margin-top: -20rem;
+    max-width: fit-content;
 }
 
 h1 {
@@ -26,4 +27,14 @@ h1 {
 
 .author {
     text-align: right;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
 }
