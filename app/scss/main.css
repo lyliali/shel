@@ -14,14 +14,27 @@ html {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 body {
     font-size: 1.7rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+a:visited {
+    color: gray;
 }
