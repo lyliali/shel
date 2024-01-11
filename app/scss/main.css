@@ -58,6 +58,10 @@ a:visited {
     color: gray;
 }
 
+.container {
+    max-width: 600px;
+}
+
 .nav {
     position: absolute;
     bottom: 0;
@@ -66,4 +70,15 @@ a:visited {
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 3rem;
+}
+
+.stanza p:not(:first-child) {
+    text-indent: 1rem;
+}
+
+.list {
+    line-height: 150%;
+    max-width: 500px;
+    margin-left: 5rem;
+    text-indent: -1.4em;
 }
