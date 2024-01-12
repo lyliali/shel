@@ -1,0 +1,31 @@
+/* STYLE FOR GENEALOGY PAGE */
+.fathers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-height: 50vh;
+    object-position: center;
+    gap: 20rem;
+    margin-bottom: 5rem;
+    place-items: center;
+}
+
+.fathers img {
+    max-height: 20vh;
+    object-fit: cover;
+}
+
+.parents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-position: center;
+    gap: 10rem;
+}
+
+.parents img {
+    max-height: 40vh;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+}
