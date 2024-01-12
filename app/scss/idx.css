@@ -32,30 +32,9 @@
     /* relative to idx grid */
     grid-row: 2;
     grid-column: 2 / 3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.idx-column-1 {
-    /* relative to idx grid */
-    grid-column: 1 / 2;
-    grid-row: 1;
-    margin-left: 2rem;
+    columns: 3
 }
 
 .title, .epigraph, .about, .socials, .projects {
     margin-bottom: 2rem;
-}
-
-.idx-column-2 {
-    /* relative to idx grid */
-    grid-column: 2 / 3;
-    grid-row: 1;
-}
-
-.idx-column-3 {
-    /* relative to idx grid */
-    grid-column: 3;
-    grid-row: 1;
-    margin-left: 6rem;
 }
