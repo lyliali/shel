@@ -1,0 +1,21 @@
+/* STYLE FOR BIO PAGE */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    z-index: -1;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.container {
+    position: absolute;
+}
