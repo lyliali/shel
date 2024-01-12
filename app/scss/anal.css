@@ -1,0 +1,27 @@
+/* STYLE FOR ANAL PAGE */
+h2 {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+img {
+    top: 10px;
+}
+
+.body-text {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    gap: 20rem;
+}
+
+.anal {
+    grid-column: 1;
+}
+
+.about {
+    grid-column: 2;
+}
