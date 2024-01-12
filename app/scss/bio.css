@@ -7,6 +7,7 @@
     object-position: center;
     gap: 2rem;
     z-index: -1;
+    place-items: center;
 }
 
 .gallery img {
@@ -16,4 +17,12 @@
 
 .container {
     position: absolute;
+}
+
+h2 {
+    text-align: center;
+}
+
+.stanza:nth-child(even) {
+    text-align: right;
 }
