@@ -3,15 +3,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    max-height: 100vh;
+    max-height: 90vh;
     object-position: center;
-    gap: 2rem;
+    gap: 1rem;
     z-index: -1;
     place-items: center;
 }
 
 .gallery img {
-    max-height: 20vh;
+    max-height: 18vh;
     object-fit: cover;
 }
 
