@@ -105,7 +105,7 @@ function generateTileHTML() {
         let row = [];
         for (let j = 0; j < 10; j++) {
             let id = 10 * i - j;
-            let tile = `<div class="tile" id="${id}"><img src="../assets/snakes-ladders/${id}.png"></div>`;
+            let tile = `<div class="tile" id="${id}"><img src="../../assets/snakes-ladders/${id}.png"></div>`;
             if (i % 2 === 0) {
                 // Add tiles in descending order (100, 99, 98...)
                 row.push(tile);
