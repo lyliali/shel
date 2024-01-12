@@ -1,0 +1,7 @@
+/* STYLE FOR TITLE PAGE */
+body {
+    background-image: url("../../assets/bg/title.png");
+    background-position: 85% 10%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
