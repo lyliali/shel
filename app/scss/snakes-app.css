@@ -1,0 +1,112 @@
+:root {
+    /* Variable definitions here */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+.header, .footer {
+    height: 3vh;
+    width: 100vw;
+}
+
+#title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 13vw;
+    z-index: -1;
+}
+
+#tagline {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20vw;
+    z-index: -1;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: gray;
+    line-height: 30%;
+}
+
+.board {
+    width: 92vh;
+    height: 92vh;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 10px black solid;
+}
+
+.tile {
+    position: relative;
+    height: 9vh;
+    width: 9vh;
+    background-color: white;
+    z-index: 0;
+}
+
+.tile:hover {
+    scale: 1.1;
+    z-index: 4;
+}
+
+.tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.active {
+    box-shadow: 0 0 5px 5px rgba(250, 240, 0, 0.8);
+    z-index: 4;
+}
+
+.active img {
+    opacity: 30%;
+}
+
+.active:hover {
+    cursor: pointer
+}
+
+.active span {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 150%;
+}
+
+.active .rollText {
+    display: none;
+}
+
+.active:hover .hereText {
+    display: none;
+}
+
+.active:hover .rollText {
+    display: inline;
+}
