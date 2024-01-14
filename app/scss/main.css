@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: inherit;
+    color: gray;
     text-decoration: none;
 }
 
@@ -83,6 +83,14 @@ a:visited {
     max-width: 500px;
     margin-left: 5rem;
     text-indent: -1.4em;
+}
+
+h1 a {
+    color: black;
+}
+
+h1 a:visited {
+    color: black;
 }
 
 h1 a::after {
