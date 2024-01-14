@@ -1,0 +1,14 @@
+/* STYLE FOR SEEING PAGE */
+body {
+    background-image: url("../../assets/illustrations/seeing.png");
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    margin-top: 20vh;
+}
+
+.container {
+    position: absolute;
+    left: 15vw;
+    top: 35vh;
+}

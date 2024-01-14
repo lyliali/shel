@@ -5,12 +5,12 @@
     max-height: 50vh;
     object-position: center;
     gap: 20rem;
-    margin-bottom: 5rem;
+    margin-bottom: 5vh;
     place-items: center;
 }
 
 .fathers img {
-    max-height: 20vh;
+    height: 20vh;
     object-fit: cover;
 }
 
@@ -18,14 +18,34 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     object-position: center;
-    gap: 10rem;
+    gap: 2vh;
+    place-items: center;
 }
 
 .parents img {
-    max-height: 40vh;
+    height: 40vh;
     object-fit: cover;
 }
 
 figcaption {
     text-align: center;
+}
+
+h1 {
+    margin-top: 5vh;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.people {
+    min-width: 60vw;
+    overflow: scroll;
+}
+
+.contemporaries {
+    display: none;
+    justify-content: center;
 }

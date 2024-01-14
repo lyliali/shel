@@ -7,21 +7,35 @@ h1 {
     margin-top: 4rem;
 }
 
-img {
-    top: 10px;
-}
-
 .body-text {
     display: grid;
     grid-template-columns: 2;
     grid-template-rows: 1;
     gap: 20rem;
+    margin-top: 30vh;
 }
 
 .anal {
     grid-column: 1;
 }
 
-.blurb {
+#blurb {
     grid-column: 2;
+}
+
+#kid, #zebra {
+    position: absolute;
+    z-index: -1;
+}
+
+#kid {
+    height: 30vh;
+    top: 40vh;
+    left: 5vw;
+}
+
+#zebra {
+    height: 70vh;
+    top: 0;
+    right: 0;
 }

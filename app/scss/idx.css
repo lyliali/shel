@@ -18,23 +18,26 @@
 }
 
 #idx-img {
-    max-height: 200px;
-    max-width: 500px;
-    margin-bottom: 7rem;
+    max-height: 25vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
 }
 
 #idx-h1 {
-    margin-bottom: 7rem;
+    margin-bottom: 5vh;
 }
 
 .idx-entries {
-    max-width: 700px;
+    width: 40vw;
+    min-height: 40vh;
+    max-height: 45vh;
     /* relative to idx grid */
     grid-row: 2;
     grid-column: 2 / 3;
-    columns: 3
+    columns: 3;
+    overflow: scroll;
 }
 
-.title, .epigraph, .about, .socials, .projects {
+.title, .epigraph, .dedication, .about, .socials, .projects {
     margin-bottom: 2rem;
 }

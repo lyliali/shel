@@ -1,7 +1,15 @@
 /* STYLE FOR TITLE PAGE */
 body {
-    background-image: url("../../assets/bg/title.png");
-    background-position: 85% 10%;
+    background-image: url("../../assets/illustrations/title.png");
+    background-position: 85% 0%;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 50vh;
+    margin-top: 20vh;
+}
+
+#name {
+    position: absolute;
+    top: 40vh;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 70%);
 }

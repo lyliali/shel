@@ -1,0 +1,14 @@
+/* STYLE FOR TIP PAGE */
+body {
+    background-image: url("../../assets/illustrations/tip.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    margin-top: 20vh;
+}
+
+.container {
+    position: absolute;
+    right: 15vw;
+    top: 35vh;
+}

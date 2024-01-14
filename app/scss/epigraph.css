@@ -1,14 +1,14 @@
 /* STYLE FOR EPIGRAPH PAGES */
 body {
-    background-image: url("../../assets/invitation.png");
-    background-position: 65% 75%;
+    background-image: url("../../assets/illustrations/invitation.png");
+    background-position: 80% 85%;
     background-repeat: no-repeat;
-    background-size: 200px;
+    background-size: 45vh;
 }
 
 .container {
-    margin-top: -20rem;
     max-width: fit-content;
+    margin-top: 20vh;
 }
 
 .poem {

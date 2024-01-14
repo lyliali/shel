@@ -1,0 +1,25 @@
+/* STYLE FOR SNAKES PAGE */
+h1 {
+    margin-bottom: 0;
+}
+
+.container {
+    position: absolute;
+    top: 30vh;
+}
+
+#snake, #frog {
+    position: absolute;
+    z-index: -1;
+    height: 70vh;
+}
+
+#snake {
+    bottom: 5vh;
+    left: 5vw;
+}
+
+#frog {
+    bottom: 0;
+    right: 0;
+}
