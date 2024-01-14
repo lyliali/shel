@@ -49,3 +49,8 @@ h2 {
     display: none;
     justify-content: center;
 }
+
+img {
+    border: 5px dashed gray;
+    border-radius: 50%;
+}
