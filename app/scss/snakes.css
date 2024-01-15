@@ -21,6 +21,6 @@ h1 {
 
 #frog {
     bottom: 0;
-    right: 0;
-    transform: rotate(-15deg);
+    right: 5vw;
+    transform: rotate(-10deg);
 }

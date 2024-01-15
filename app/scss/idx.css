@@ -41,3 +41,25 @@
 .title, .epigraph, .dedication, .about, .socials, .projects {
     margin-bottom: 2rem;
 }
+
+/* Two columns */
+@media only screen and (max-width: 1380px) {
+}
+
+@media only screen and (max-width: 912px) {
+    .idx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .idx-entries {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0 2vw 15vw 7vw; /* top right bottom left */
+        overflow: unset;
+        max-height: unset;
+        min-height: fit-content;
+    }
+}
