@@ -39,3 +39,26 @@ h1 {
     top: 0;
     right: 0;
 }
+
+#mobile-both {
+    display: none;
+}
+
+@media only screen and (max-width: 912px) {
+    #kid, #zebra {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        width: 100vw;
+    }
+
+    .body-text {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 15vw;
+    }
+}

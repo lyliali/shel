@@ -1,0 +1,11 @@
+/* STYLE FOR PROJECTS PAGE */
+#projects {
+    max-width: 30vw;
+    margin-top: 40vh;
+}
+
+@media only screen and (max-width: 912px) {
+    #projects {
+        max-width: 80vw;
+    }
+}

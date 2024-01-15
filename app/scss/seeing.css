@@ -12,3 +12,24 @@ body {
     left: 15vw;
     top: 35vh;
 }
+
+@media only screen and (max-width: 912px) {
+    body {
+        background-image: none;
+        margin-top: 0;
+    }
+
+    #mobile {
+        display: block;
+        width: 100vw;
+    }
+
+    .container {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5vw 15vh 5vw; /* top right bottom left */
+        margin-top: 5vh;
+    }
+}

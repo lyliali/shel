@@ -24,3 +24,27 @@ h1 {
     right: 5vw;
     transform: rotate(-10deg);
 }
+
+@media only screen and (max-width: 912px) {
+    #snake, #frog {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        width: 100vw;
+    }
+
+    .container {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5vw 15vh 5vw; /* top right bottom left */
+        margin-top: 5vh;
+    }
+
+    .heading {
+        margin-bottom: 5vh;
+    }
+}

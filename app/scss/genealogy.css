@@ -9,6 +9,10 @@
     place-items: center;
 }
 
+.fathers figure {
+    text-align: center;
+}
+
 .fathers img {
     height: 20vh;
     object-fit: cover;
@@ -53,4 +57,22 @@ h2 {
 img {
     border: 5px dashed gray;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 912px) {
+    .fathers {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fathers figure {
+        margin-bottom: 5vh;
+    }
+
+    .parents {
+        padding-bottom: 12vh;
+    }
 }
