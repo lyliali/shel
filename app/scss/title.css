@@ -34,7 +34,6 @@ body {
         overflow-y: unset;
         background-image: none;
         overflow: hidden;
-        max-height: 95vh;
-        padding-top: 5vh;
+        height: 95vh;
     }
 }
