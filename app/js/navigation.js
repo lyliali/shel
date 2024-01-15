@@ -60,15 +60,9 @@ function populateNavigation() {
             <span class="mobile-nav">&rarr;</span>
         </a>
     `;
-    console.log(prev);
-    console.log(index);
-    console.log(next);
-    const prevElem = document.getElementById("prev");
-    prevElem.innerHTML = prev;
-    const idxElem = document.getElementById("idx");
-    idxElem.innerHTML = index;
-    const nextElem = document.getElementById("next");
-    nextElem.innerHTML = next;
+    document.getElementById("prev").innerHTML = prev;
+    document.getElementById("idx").innerHTML = index;
+    document.getElementById("next").innerHTML = next;
 }
 
 /* Function Calls */
