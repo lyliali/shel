@@ -14,13 +14,27 @@ body {
     background-color: rgba(255, 255, 255, 70%);
 }
 
+#mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 912px) {
-    body {
-        background-position: 65% -5%;
+    #mobile {
+        display: block;
+        height: 60vh;
     }
 
     #name {
-        top: 63vh;
-        height: 30vh;
+        position: unset;
+        height: 24vh;
+    }
+
+    body {
+        margin-top: unset;
+        overflow-y: unset;
+        background-image: none;
+        overflow: hidden;
+        max-height: 95vh;
+        padding-top: 5vh;
     }
 }

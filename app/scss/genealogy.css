@@ -74,5 +74,11 @@ img {
 
     .parents {
         padding-bottom: 12vh;
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .parents img {
+        height: 30vh;
     }
 }
