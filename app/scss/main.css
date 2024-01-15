@@ -74,6 +74,11 @@ a:visited {
     background-color: white;
 }
 
+.nav p {
+    text-align: center;
+    margin-left: 0;
+}
+
 .stanza p:not(:first-child) {
     text-indent: 1rem;
 }
@@ -112,15 +117,15 @@ h1 a::after {
 /* Using dimensions of Surface Pro 7 in Google Chrome mobile view developer tools */
 @media only screen and (max-width: 912px) {
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     body {
-        font-size: 3rem;
+        font-size: 2rem;
         height: unset;
         width: 100vw;
         overflow-y: scroll;
