@@ -39,4 +39,8 @@ body {
         width: 80vw;
         margin-top: 4vh;
     }
+
+    .container {
+        padding-bottom: 15vh;
+    }
 }
