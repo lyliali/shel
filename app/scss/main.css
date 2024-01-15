@@ -117,15 +117,15 @@ h1 a::after {
 /* Using dimensions of Surface Pro 7 in Google Chrome mobile view developer tools */
 @media only screen and (max-width: 912px) {
     h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
         font-size: 2.5rem;
     }
 
-    body {
+    h2 {
         font-size: 2rem;
+    }
+
+    body {
+        font-size: 1.5rem;
         height: unset;
         width: 100vw;
         overflow-y: scroll;

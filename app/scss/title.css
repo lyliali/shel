@@ -21,7 +21,7 @@ body {
 @media only screen and (max-width: 912px) {
     #mobile {
         display: block;
-        height: 60vh;
+        height: 50vh;
     }
 
     #name {
