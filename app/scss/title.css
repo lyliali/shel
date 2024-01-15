@@ -35,5 +35,7 @@ body {
         background-image: none;
         overflow: hidden;
         height: 95vh;
+        margin-top: 5vh;
+        justify-content: unset;
     }
 }
