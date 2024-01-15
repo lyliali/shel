@@ -142,4 +142,8 @@ h1 a::after {
     .mobile-nav {
         display: block;
     }
+
+    .nav {
+        padding-bottom: 0;
+    }
 }
