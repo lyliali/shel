@@ -1,6 +1,6 @@
 /* STYLE FOR EPIGRAPH PAGES */
 body {
-    background-image: url("../../assets/illustrations/invitation.png");
+    background-image: url("../../assets/illustrations/invitation.webp");
     background-position: 80% 85%;
     background-repeat: no-repeat;
     background-size: 45vh;
@@ -17,4 +17,11 @@ body {
 
 .author {
     text-align: right;
+}
+
+@media only screen and (max-width: 912px) {
+    .container {
+        margin-top: 5vh;
+        margin-left: -7vh;
+    }
 }

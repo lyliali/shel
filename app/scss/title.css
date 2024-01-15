@@ -1,7 +1,7 @@
 /* STYLE FOR TITLE PAGE */
 body {
-    background-image: url("../../assets/illustrations/title.png");
-    background-position: 85% 0%;
+    background-image: url("../../assets/illustrations/title.webp");
+    background-position: 85% 5%;
     background-repeat: no-repeat;
     background-size: 50vh;
     margin-top: 20vh;
@@ -12,4 +12,15 @@ body {
     top: 40vh;
     height: 50vh;
     background-color: rgba(255, 255, 255, 70%);
+}
+
+@media only screen and (max-width: 912px) {
+    body {
+        background-position: 65% 5%;
+    }
+
+    #name {
+        top: 63vh;
+        height: 30vh;
+    }
 }
