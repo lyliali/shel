@@ -39,9 +39,9 @@ function documentTitleToArrIndex() {
 function populateNavigation() {
     let current = documentTitleToArrIndex();
     let urlPrefix = "https://lylia.li";
-    let prevUrl = url.concat(SLUGS[current - 1]);
-    let indexUrl = url.concat(SLUGS[SLUGS.length - 1]);
-    let nextUrl = url.concat(SLUGS[current + 1]);
+    let prevUrl = urlPrefix.concat(SLUGS[current - 1]);
+    let indexUrl = urlPrefix.concat(SLUGS[SLUGS.length - 1]);
+    let nextUrl = urlPrefix.concat(SLUGS[current + 1]);
     let prev = `
         <a href="${prevUrl}">
             <span class="desktop-nav">Previous page</span>
