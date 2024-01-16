@@ -25,6 +25,10 @@ h1 {
     transform: rotate(-10deg);
 }
 
+#mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 912px) {
     #snake, #frog {
         display: none;
