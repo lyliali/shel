@@ -17,14 +17,14 @@ const PAGES = [
 
 const PAGE_PATHS = [
     "index.html",
-    "html/epigraph/invitation.html",
-    "html/about/bio.html",
-    "html/projects/projects.html",
-    "html/projects/anal.html",
-    "html/projects/seeing.html",
-    "html/projects/snakes.html",
-    "html/about/genealogy.html",
-    "html/idx.html"
+    "/epigraph",
+    "/about",
+    "/projects",
+    "/art-is-not-a-luxury",
+    "/worth-seeing",
+    "/snakes-ladders",
+    "/genealogy",
+    "/index"
 ]
 
 /* Function Definitons */
