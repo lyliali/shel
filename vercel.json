@@ -1,0 +1,9 @@
+/* https://vercel.com/docs/projects/project-configuration#rewrites */
+{
+    "rewrites": [
+        {
+            "source": "/epigraph",
+            "destination": "/html/epigraph/invitation.html"
+        }
+    ]
+}
