@@ -38,75 +38,75 @@
         },
         {
             "source": "/dedication",
-            "destination": "./about/dedication.html"  
+            "destination": "/html/about/dedication.html"  
         },
         {
             "source": "/tip",
-            "destination": "./about/tip.html"
+            "destination": "/html/about/tip.html"
         },
         {
             "source": "/art-angelyls",
-            "destination": "../assets/bio/01.webp"
+            "destination": "/assets/bio/01.webp"
         },
         {
             "source": "/420-69",
-            "destination": "../assets/bio/02.webp"
+            "destination": "/assets/bio/02.webp"
         },
         {
             "source": "/bibimbangers-2017",
-            "destination": "../assets/bio/03.webp"
+            "destination": "/assets/bio/03.webp"
         },
         {
             "source": "/bojack",
-            "destination": "../assets/bio/04.webp"
+            "destination": "/assets/bio/04.webp"
         },
         {
             "source": "/that-girl",
-            "destination": "../assets/bio/05.webp"
+            "destination": "/assets/bio/05.webp"
         },
         {
             "source": "/mobo",
-            "destination": "../assets/bio/06.webp"
+            "destination": "/assets/bio/06.webp"
         },
         {
             "source": "/bibimbangers-2019",
-            "destination": "../assets/bio/07.webp"
+            "destination": "/assets/bio/07.webp"
         },
         {
             "source": "/bisexual-vandal-p",
-            "destination": "../assets/bio/10.webp"
+            "destination": "/assets/bio/10.webp"
         },
         {
             "source": "/bisexual-vandal-v",
-            "destination": "../assets/bio/15.webp"
+            "destination": "/assets/bio/15.webp"
         },
         {
             "source": "/usps",
-            "destination": "../assets/bio/08.webp"
+            "destination": "/assets/bio/08.webp"
         },
         {
             "source": "/collect-likes",
-            "destination": "../assets/bio/09.webp"
+            "destination": "/assets/bio/09.webp"
         },
         {
             "source": "/snacky-girl",
-            "destination": "../assets/bio/11.webp"
+            "destination": "/assets/bio/11.webp"
         },
         {
             "source": "/pixie-cut",
-            "destination": "../assets/bio/12.webp"
+            "destination": "/assets/bio/12.webp"
         },
         {
             "source": "/jack-of-all-trades",
-            "destination": "../assets/bio/13.webp"
+            "destination": "/assets/bio/13.webp"
         },
         {
             "source": "/reputation",
-            "destination": "../assets/bio/14.webp"
+            "destination": "/assets/bio/14.webp"
         },
         {
             "source": "/three-buds",
-            "destination": "../assets/bio/16.webp"
+            "destination": "/assets/bio/16.webp"
         }
     ]
 }
