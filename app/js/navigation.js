@@ -27,6 +27,8 @@ const SLUGS = [
     "/index"
 ]
 
+const URL_PREFIX = "https://lylia.li"
+
 /* Function Definitons */
 function documentTitleToArrIndex() {
     for (let i = 1; i < PAGES.length; i++) {
@@ -38,10 +40,9 @@ function documentTitleToArrIndex() {
 
 function populateNavigation() {
     let current = documentTitleToArrIndex();
-    let urlPrefix = "https://lylia.li";
-    let prevUrl = urlPrefix.concat(SLUGS[current - 1]);
-    let indexUrl = urlPrefix.concat(SLUGS[SLUGS.length - 1]);
-    let nextUrl = urlPrefix.concat(SLUGS[current + 1]);
+    let prevUrl = URL_PREFIX.concat(SLUGS[current - 1]);
+    let indexUrl = URL_PREFIX.concat(SLUGS[SLUGS.length - 1]);
+    let nextUrl = URL_PREFIX.concat(SLUGS[current + 1]);
     let prev = `
         <a href="${prevUrl}">
             <span class="desktop-nav">Previous page</span>
