@@ -107,6 +107,14 @@
         {
             "source": "/three-buds",
             "destination": "/assets/bio/16.webp"
+        },
+        {
+            "source": "/mom",
+            "destination": "/assets/genealogy/mom.webp"
+        },
+        {
+            "source": "/dad",
+            "destination": "/assets/genealogy/dad.webp"
         }
     ]
 }
