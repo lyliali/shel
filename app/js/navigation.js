@@ -15,16 +15,16 @@ const PAGES = [
     "index"
 ];
 
-const PAGE_PATHS = [
-    "index.html",
-    "./epigraph",
-    "./about",
-    "./projects",
-    "./art-is-not-a-luxury",
-    "./worth-seeing",
-    "./snakes-ladders",
-    "./genealogy",
-    "./index"
+const SLUGS = [
+    "/",
+    "/epigraph",
+    "/about",
+    "/projects",
+    "/art-is-not-a-luxury",
+    "/worth-seeing",
+    "/snakes-ladders",
+    "/genealogy",
+    "/index"
 ]
 
 /* Function Definitons */
@@ -38,10 +38,10 @@ function documentTitleToArrIndex() {
 
 function populateNavigation() {
     let current = documentTitleToArrIndex();
-    let url = window.location.href.split("html")[0];
-    let prevUrl = url.concat(PAGE_PATHS[current - 1]);
-    let indexUrl = url.concat(PAGE_PATHS[PAGE_PATHS.length - 1]);
-    let nextUrl = url.concat(PAGE_PATHS[current + 1]);
+    let urlPrefix = "https://lylia.li";
+    let prevUrl = url.concat(SLUGS[current - 1]);
+    let indexUrl = url.concat(SLUGS[SLUGS.length - 1]);
+    let nextUrl = url.concat(SLUGS[current + 1]);
     let prev = `
         <a href="${prevUrl}">
             <span class="desktop-nav">Previous page</span>
