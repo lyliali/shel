@@ -4,10 +4,36 @@ h1 {
     margin-bottom: 2vh;
 }
 
+#gallery {
+    width: 50vw;
+}
+
 #gallery img {
     height: 50vh;
 }
 
+#gallery figure {
+    text-align: center;
+}
+
+#gallery figcaption {
+    font-style: italic;
+}
+
+#gallery-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    margin-bottom: 1vh;
+}
+
+#gallery-prev:hover, #gallery-next:hover {
+    cursor: pointer;
+}
+
+/* TODO: This idea is a stage above MVP
 #timeline {
     display: flex;
     flex-direction: row;
@@ -28,6 +54,7 @@ h1 {
     opacity: 100%;
     font-size: 200%;
 }
+*/
 
 @media only screen and (max-width: 912px) {
     #gallery img {
