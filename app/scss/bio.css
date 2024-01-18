@@ -57,11 +57,9 @@ h1 {
 */
 
 @media only screen and (max-width: 912px) {
-    body {
-    }
-
     #gallery {
         width: 80vw;
+        padding-bottom: 15vh;
     }
 
     #gallery img {
