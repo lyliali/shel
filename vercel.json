@@ -1,6 +1,14 @@
 {
     "rewrites": [
         {
+            "source": "/praise",
+            "destination": "/html/about/praise.html"
+        },
+        {
+            "source": "/dedication",
+            "destination": "/html/about/dedication.html"
+        },
+        {
             "source": "/epigraph",
             "destination": "/html/epigraph/invitation.html"
         },
@@ -35,10 +43,6 @@
         {
             "source": "/index",
             "destination": "/html/idx.html"
-        },
-        {
-            "source": "/dedication",
-            "destination": "/html/about/dedication.html"  
         },
         {
             "source": "/tip",

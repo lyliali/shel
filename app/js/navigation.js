@@ -5,6 +5,7 @@
 /* Constants */
 const PAGES = [
     "title",
+    "advance praise",
     "dedication",
     "epigraph",
     "bio",
@@ -18,6 +19,7 @@ const PAGES = [
 
 const SLUGS = [
     "/",
+    "/praise",
     "/dedication",
     "/epigraph",
     "/about",

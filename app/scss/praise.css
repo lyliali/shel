@@ -1,0 +1,14 @@
+/* STYLE FOR ADVANCE PRAISE PAGE */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.praise {
+    font-style: italic;
+}
+
+.attribution {
+    text-align: right;
+}
