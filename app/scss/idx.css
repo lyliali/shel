@@ -38,7 +38,7 @@
     overflow: scroll;
 }
 
-.title, .epigraph, .dedication, .about, .socials, .projects {
+.title, .epigraph, .dedication, .about, .tip, .socials, .projects {
     margin-bottom: 2rem;
 }
 
