@@ -31,7 +31,7 @@ const SLUGS = [
     "/index"
 ]
 
-const URL_PREFIX = location.hostname;
+const URL_PREFIX = "https://lylia.li";
 
 /* Function Definitons */
 function documentTitleToArrIndex() {
