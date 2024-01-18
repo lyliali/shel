@@ -76,7 +76,6 @@ function updateImage(i) {
 
 function galleryNav(i) {
     current = current + i;
-    console.log(current);
     if (current === 0) {
         document.getElementById("gallery-prev").style.display = "none";
     }
