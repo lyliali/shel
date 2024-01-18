@@ -5,6 +5,8 @@
 /* Constants */
 const PAGES = [
     "title",
+    "advance praise",
+    "dedication",
     "epigraph",
     "bio",
     "projects",
@@ -17,6 +19,8 @@ const PAGES = [
 
 const SLUGS = [
     "/",
+    "/praise",
+    "/dedication",
     "/epigraph",
     "/about",
     "/projects",
@@ -27,11 +31,11 @@ const SLUGS = [
     "/index"
 ]
 
-const URL_PREFIX = "https://lylia.li"
+const URL_PREFIX = "https://lylia.li";
 
 /* Function Definitons */
 function documentTitleToArrIndex() {
-    for (let i = 1; i < PAGES.length; i++) {
+    for (let i = 0; i < PAGES.length; i++) {
         if (document.title.startsWith(PAGES[i])) {
             return i;
         }
@@ -40,6 +44,15 @@ function documentTitleToArrIndex() {
 
 function populateNavigation() {
     let current = documentTitleToArrIndex();
+
+    // Nav for title page
+    if (current === 0){
+        let enter = `<a href="${URL_PREFIX.concat(SLUGS[1])}">Enter</a>`;
+        document.getElementById("enter").innerHTML = enter;
+        console.log("done");
+        return;
+    }
+
     let prevUrl = URL_PREFIX.concat(SLUGS[current - 1]);
     let indexUrl = URL_PREFIX.concat(SLUGS[SLUGS.length - 1]);
     let nextUrl = URL_PREFIX.concat(SLUGS[current + 1]);

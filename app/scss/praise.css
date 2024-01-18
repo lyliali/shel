@@ -1,0 +1,26 @@
+/* STYLE FOR ADVANCE PRAISE PAGE */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.praise {
+    font-style: italic;
+}
+
+.attribution {
+    text-align: right;
+}
+
+@media only screen and (max-width: 912px) {
+    body {
+        padding-top: 25vh; /* TODO: I don't know why this is necessary to center the contents */
+        padding-bottom: 15vh;
+    }
+
+    p {
+        padding-left: 3vw;
+        padding-right: 7vw;
+    }
+}
