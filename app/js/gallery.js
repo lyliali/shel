@@ -29,7 +29,7 @@ const IMAGE_CAPTIONS = [
     "Started a college radio show mostly so she could listen to music on HQ speakers and drink red wine in the dark",
     "Literally could not invest emotionally in anything that wasn't <i>Bojack Horseman</i>",
     "Out of respect, Cinematography classmate decided not to use <i>Ratatouille</i> in assignment to recut a movie trailer",
-    "Graduated college, moved to Boston, and found new appreciation for the struggles of horny pubescent boys",
+    "Graduated college, moved to Boston, and found new appreciation for the struggles of pubescent boys",
     "Revived Bibimbangers radio show at a community station in East Boston focused on youth empowerment",
     `Took commissions on <a target="_blank" href="https://lyliax.wixsite.com/home/usps">USPS stickers</a> to raise money for the Boston Artist Relief Fund`,
     "Was feeling herself in an Ambercrombie & Fitch hand me down dress from her sister",
