@@ -1,31 +1,24 @@
 /* STYLE FOR TITLE PAGE */
 body {
-    background-image: url("../../assets/illustrations/title.webp");
-    background-position: 85% 5%;
-    background-repeat: no-repeat;
-    background-size: 50vh;
-    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#attic {
+    height: 60vh;
+    margin-top: 5vh;
 }
 
 #name {
-    position: absolute;
-    top: 40vh;
-    height: 50vh;
-    background-color: rgba(255, 255, 255, 70%);
-}
-
-#mobile {
-    display: none;
+    height: 25vh;
 }
 
 @media only screen and (max-width: 912px) {
-    #mobile {
-        display: block;
+    #attic {
         height: 50vh;
     }
 
     #name {
-        position: unset;
         height: 24vh;
     }
 
