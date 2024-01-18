@@ -27,6 +27,7 @@ body {
     .container {
         margin-top: 5vh;
         width: 80vw;
+        padding-bottom: 15vh;
     }
 
     /* TODO: for some reason this property isn't inherited from the main.css file */
@@ -38,9 +39,5 @@ body {
         display: block;
         width: 80vw;
         margin-top: 4vh;
-    }
-
-    .container {
-        padding-bottom: 15vh;
     }
 }
