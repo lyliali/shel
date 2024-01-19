@@ -2,8 +2,8 @@
 .idx {
     display: grid;
     grid-template-rows: 1fr 2fr;
-    max-width: 1000px;
-    max-height: 700px;
+    max-height: 100vh;
+    max-width: 75vw;
 }
 
 .idx-header {
@@ -28,14 +28,13 @@
 }
 
 .idx-entries {
-    width: 40vw;
-    min-height: 40vh;
-    max-height: 45vh;
+    width: fit-content;
+    height: fit-content;
     /* relative to idx grid */
     grid-row: 2;
     grid-column: 2 / 3;
     columns: 3;
-    overflow: scroll;
+    padding: 0 10vw 15vh 10vw; /* top right bottom left */
 }
 
 .title, .epigraph, .dedication, .about, .tip, .socials, .projects {
@@ -43,10 +42,14 @@
 }
 
 /* Two columns */
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1062px) {    
+    .idx-entries {
+        columns: 2;
+    }
 }
 
-@media only screen and (max-width: 912px) {
+/* One column */
+@media only screen and (max-width: 746px) {
     .idx {
         display: flex;
         flex-direction: column;

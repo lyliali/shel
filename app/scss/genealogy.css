@@ -4,7 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     max-height: 50vh;
     object-position: center;
-    gap: 20rem;
+    gap: 4vw;
     margin-bottom: 5vh;
     place-items: center;
 }
@@ -45,8 +45,8 @@ h2 {
 }
 
 .people {
-    min-width: 60vw;
-    overflow: scroll;
+    width: 60vw;
+    padding-bottom: 15vh;
 }
 
 .contemporaries {
