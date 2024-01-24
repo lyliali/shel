@@ -21,6 +21,10 @@
             "destination": "/html/projects/projects.html"
         },
         {
+            "source": "/this",
+            "destination": "/html/projects/this.html"
+        },
+        {
             "source": "/art-is-not-a-luxury",
             "destination": "/html/projects/anal.html"
         },

@@ -1,0 +1,39 @@
+/* STYLE FOR THIS PAGE */
+body {
+    background-image: url("../../assets/illustrations/lighthouse.webp");
+    background-position: 5% 10%;
+    background-repeat: no-repeat;
+    background-size: 75vh;
+    margin-top: 20vh;
+}
+
+.container {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+#mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 912px) {
+    body {
+        background-image: none;
+        margin-top: 0;
+    }
+
+    #mobile {
+        display: block;
+        width: 100vw;
+    }
+
+    .container {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 10vw 15vh 7vw; /* top right bottom left */
+        margin-top: 5vh;
+    }
+}

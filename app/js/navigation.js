@@ -13,6 +13,7 @@ const PAGES = [
     "art is not a luxury",
     "only the things worth seeing",
     "snakes and ladders",
+    "this",
     "genealogy",
     "index"
 ];
@@ -27,6 +28,7 @@ const SLUGS = [
     "/art-is-not-a-luxury",
     "/worth-seeing",
     "/snakes-ladders",
+    "/this",
     "/genealogy",
     "/index"
 ]
