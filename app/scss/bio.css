@@ -5,7 +5,7 @@ h1 {
 }
 
 #gallery {
-    width: 50vw;
+    width: fit-content;
 }
 
 #gallery img {
