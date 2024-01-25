@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .praise {
@@ -15,7 +18,6 @@ body {
 
 @media only screen and (max-width: 912px) {
     body {
-        padding-top: 25vh; /* TODO: I don't know why this is necessary to center the contents */
         padding-bottom: 15vh;
     }
 
