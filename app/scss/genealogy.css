@@ -1,7 +1,7 @@
 /* STYLE FOR GENEALOGY PAGE */
 .fathers {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     max-height: 50vh;
     object-position: center;
     gap: 4vw;
