@@ -24,7 +24,7 @@ const IMAGE_NAMES = [
     "16"
 ];
 const IMAGE_CAPTIONS = [
-    "Busted mind listening to Grimes and Tame Impala on weed",
+    "Busted mind listening to Grimes on weed",
     "Discovered Kaytranada by stalking the XC boy down the hall on Spotify",
     "Started a college radio show mostly so she could listen to music on HQ speakers and drink red wine in the dark",
     "Emotionally overindexed on <i>Bojack Horseman</i>",
@@ -37,7 +37,7 @@ const IMAGE_CAPTIONS = [
     "Learned ceramics because she needed to get out of her head and into her body",
     "Got a pixie cut",
     "Embraced her identity as a jack of all trades",
-    "Appropriated Taylor Swift's branding for the Reputation tour to process her own identity crisis",
+    "Appropriated Taylor Swift's branding for the Eras tour to process her own identity crisis",
     "Moved back to her hometown in New York to confront questions about her own legacy",
     "Decided to harness the power of the Internet to make something of herself"
 ];
